@@ -1,0 +1,287 @@
+/* Beging styling calculator.html */
+.outter {
+	position: absolute;
+	top: 50px;
+	left: 25px;
+	width: 230px;
+	height: 376px; 
+	padding-top: 8px; 
+	border: 2px black solid;
+	background-color: #666;
+}
+
+.display {
+	width: 200px;
+	height: 80px;
+	background-color: #FFD;
+	border: 2px black solid;
+	margin: auto;
+}
+
+.calc-body {
+	width: 210px;
+	padding-top: 20px;
+	margin: auto ;
+}
+
+.button {
+	display: inline-block;
+	line-height: 50px;
+	width: 50px;
+	height: 50px;
+	background-color: #CCC;
+	float: left;
+	text-align: center;
+	vertical-align: middle;
+	font-weight: bold;
+	color: red;
+	border-radius: 50px;
+	border: 1px black solid;
+	margin: 1px;
+}
+
+.button:hover {
+	color: green;
+	font-weight: bold;
+	font-size: 1.5em;
+	background-color: #CCB;
+}
+
+.button:active {
+	color: yellow;
+	font-weight: bold;
+	font-size: 1.5;
+	background-color: #DDD;
+}
+
+input {
+	display: block;
+	width: 96%;
+	height: 50%;
+	font-size: 2em;
+	margin: auto;
+	border: none;
+	text-align: right;
+}
+
+input#input {
+	color: gray;
+}
+
+input#resut {
+	color: black;
+	font-weight: bold;
+}
+/* End styling calculator.html */
+/********************************************************************************************/
+/* Beging styling tabs.html */
+/*
+div ul#tabs li {
+	display: inline;
+}
+*/
+
+ul#menu li {
+    display:inline-block;
+	background-color: black;
+	color: white;
+	width: 150px;
+	text-align: center;
+	border-radius: 5px;
+	margin-right: -5px;
+}
+
+ul#menu li:hover {
+	color: blue;
+}
+
+	/* Selector #1  */
+/* div.tabComponent input {} */
+
+/* Selector #2  */
+/* div.tabComponent label {} */
+div.tabComponent {
+	width: 600px;
+}
+
+
+div.tabComponent label {
+	display:inline-block;
+/*	background-color: black; */
+/*	color: white;            */
+	width: 150px;
+	text-align: center;
+	border-radius: 5px;
+	margin-right: -5px;
+}
+
+div.tabComponent label:hover {
+	background-color: black; 
+	color: white;
+}
+
+/*
+div.tabComponent #lhd:focus {
+	background-color: black; 
+	color: white; 
+}
+
+div.tabComponent #lfr:hover {
+	background-color: black; 
+	color: white; 
+}
+
+div.tabComponent #lfr:focus {
+	background-color: black; 
+	color: white; 
+}
+
+div.tabComponent #lkt:hover {
+	background-color: black; 
+	color: white; 
+}
+
+div.tabComponent #lkt:focus {
+	background-color: black; 
+	color: white; 
+}
+*/
+div.tabComponent input {
+	color: #CCC;
+	font-size: 1.5em;
+	text-align: left;
+	width: 600px;
+}
+
+/* .homedecor, .kitchen, .furniture { position: absolute; } */
+.pos { position: absolute; }
+
+/* -----------  Hom  ----------- */
+
+div.tabComponent #homedecor {
+	visibility: hidden;
+} 
+div.pos #homedecor:focus {
+	visibility: visible;
+}
+
+div.pos #homedecor:hover {
+	visibility: visible;
+}
+
+div.pos #lid:active {
+	background-color; red;
+}
+
+/* -----------  Fur  ----------- */
+
+div.tabComponent #furniture {
+	visibility: hidden;
+}
+
+div.pos #furniture:focus {
+	visibility: visible;
+}
+
+div.pos #furniture:hover {
+	visibility: visible;
+}
+
+div.pos #furniture:active {
+	visibility: visible;
+}
+
+
+/* -----------  kit  ----------- */
+
+
+div.tabComponent #kitchen {
+	visibility: hidden;
+}
+
+div.pos #kitchen:focus {
+	visibility: visible;
+}
+
+div.pos #kitchen:hover {
+	visibility: visible;
+}
+
+div.pos #kitchen:active {
+	visibility: visible;
+}
+
+
+
+
+
+
+
+
+
+/*
+div.tabComponent #furniture {
+	position: absolute;
+	top: 20px;
+	width: 600px;
+	height: 50px;
+}
+
+div.tabComponent #kitchen {
+	position: absolute;
+	top: 10px;
+	width: 600px;
+	height: 50px;
+}
+
+div.tabComponent #homedecor {
+	position: absolute;
+	top: 10px;
+	width: 600px;
+	height: 50px;
+}
+*/
+
+
+
+/*
+ul#menu li>div:active, .message
+{
+	visibility: hidden;
+}
+
+ul#menu li>div:active {
+	visibility: visible;
+}
+
+
+.message {
+	float: left;
+}
+
+.tabComponent {
+	width: 100%;
+}
+*/
+/* End styling tabs.html */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

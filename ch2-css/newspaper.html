@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Exercise 1</title>
+		
+		<style>
+		
+			.header {
+				width: 100%;
+				height: 100px;
+				background-color: blue;
+				text-align: center;	
+				font-size: 5em;
+			}
+			
+			.footer {
+				width: 100%;
+				height: 100px;
+				background-color: green;
+				text-align: center;	
+				font-size: 5em;
+			}
+			
+			.column-left {
+				width: 33%;
+				background-color: #999;
+				border: 1px solid;
+			}
+			
+			.column-right {
+				width: 33%;
+				background-color: #999;
+				border: 1px solid;
+			}
+			
+			.square-left {
+				background-color: cyan;
+				float: left;
+			}
+			
+			.square-right {
+				background-color: yellow;
+				float: right;
+			}
+			
+			.square-features {
+				width: 50%;
+				height: 70px;
+				margin: 5px;
+			}
+			
+			.clear-floats {
+				clear: both;
+			}
+						
+			h3 {
+				text-align: center;
+			}			
+						
+			p {
+				margin: 10px;
+			}
+			
+			.pale-color {
+				color: #CCC;
+			} 
+		</style>
+		
+	</head>
+	<body>
+	<main>
+		<!--- Header --->
+		<div class="header"> 
+			HEADER
+		</div>
+		<!--- Content --->
+		<div>
+			<aside class="column-left pale-color"; style="float: left;">
+				<h3>Title</h3>
+				<div class="square-left square-features"></div>
+				<p>Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa.</p>
+				<p>Sed dignissim lacinia nunc. Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor.</p>
+				<p>Fusce ac turpis quis ligula lacinia aliquet. Mauris ipsum. Nulla metus metus, ullamcorper vel, tincidunt sed, euismod in, nibh. Quisque volutpat condimentum velit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+				<p>Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero. </p>
+				<p>Cras metus. Sed aliquet risus a tortor. Integer id quam. Morbi mi. Quisque nisl felis, venenatis tristique, dignissim in, ultrices sit amet, augue. Proin sodales libero eget ante.</p>
+				<p>Suspendisse in justo eu magna luctus suscipit. Sed lectus. Integer euismod lacus luctus magna. Quisque cursus, metus vitae pharetra auctor, sem massa mattis sem, at interdum magna augue eget diam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi lacinia molestie dui.</p>
+				<div class="square-right square-features"></div>
+				<p>Morbi lectus risus, iaculis vel, suscipit quis, luctus non, massa. Fusce ac turpis quis ligula lacinia aliquet. Mauris ipsum. Nulla metus metus, ullamcorper vel, tincidunt sed, euismod in, nibh. Quisque volutpat condimentum velit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. </p>
+				<p>Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero. 				
+				</p>
+			</aside>
+			<aside class="column-left"; style="float: left; margin-left: 5px;">
+				<h3>Floats</h3>
+				<div class="square-left square-features"></div>
+				<p>Floats behave as balloons trapped in a room in some respect. A css box is the balloon, and you can tie a leash to it so you can pull it. In css you can only pull right or left, so all the balloons that you pull to the left will bunch up in the left side of their parent container, and the same goes for the ones you pull to the right, except these pile up on the right side.</p>
+				<p>Just like balloons, they do not occupy the same space, so if you have 5 balloons, and you pull them all to the right, they will line up one behind the other. </p>
+				<p>If you pull some of the balloons to the right and some to the left, as expected, they will bunch up to the right and left, leaving empty space in the middle, if the area is large enough.</p>
+				<div class="square-right square-features"></div>
+				<p>What happens when you have enough balloons to cover the entire top of the room they are in? They will start to go under each other, but they will still be pulled right or left. </p>
+				<p>Now, if there a balloon or balloons you do not want to see floating right or left?  Perhaps you tie them to something, in the case of css boxes, you tell you do not want them floating by using "none".</p>
+				<p>Lastly, if you do not want any more balloons floating in the space you are? You can tell put a barrier, so that no more balloons are allowed to float beyond that barrier. In css, that is accomplish by using "clear both", meaning, do not allow any more balloons floating left or right.</p>
+				<p>Of course, you can keep floating balloons in another area of the room, or you can go to another room. </p>
+			</aside>
+			<aside class="column-right pale-color"; style="float: right;">
+				<h3>Title</h3>
+				<div class="square-left square-features"></div>
+				<p>Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa.</p>
+				<p>Sed dignissim lacinia nunc. Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor.</p>
+				<p>Fusce ac turpis quis ligula lacinia aliquet. Mauris ipsum. Nulla metus metus, ullamcorper vel, tincidunt sed, euismod in, nibh. Quisque volutpat condimentum velit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+				<p>Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero. </p>
+				<p>Cras metus. Sed aliquet risus a tortor. Integer id quam. Morbi mi. Quisque nisl felis, venenatis tristique, dignissim in, ultrices sit amet, augue. Proin sodales libero eget ante.</p>
+				<p>Curabitur sit amet mauris. Morbi in dui quis est pulvinar ullamcorper. Nulla facilisi. Integer lacinia sollicitudin massa.</p>
+			</aside>
+		</div>
+		
+		<!--- Clear floats --->
+		<div class="clear-floats">
+		</div>
+		<!--- footer --->
+		<div class="footer">
+			FOOTER
+		</div>
+	</main>
+	</body>
+
+</html>

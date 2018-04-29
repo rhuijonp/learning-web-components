@@ -1,0 +1,42 @@
+body {
+  display: flex;
+  flex-flow: row wrap; 
+  font-family: sans-serif;
+}
+
+div.tabComponent {
+  width: 100%;
+  color: #CCC;
+}
+
+div.tabComponent input {
+	display:inline-block;
+	display: none;
+}
+
+label {
+  font-size: 1.3em;
+  padding: 0 15px 0 15px;
+  text-align: center;
+  background-color: lightslategray;
+  color: white;
+  border: 1px solid;
+  border-radius: 5px;
+  margin-left: -5px;
+}
+
+label:hover {
+  background-color: black;
+}
+
+#div-homedecor, #div-furniture, #div-kitchen {
+	position: absolute;
+	float: left;
+	visibility: hidden;
+}
+
+#homedecor:checked ~ #div-homedecor,
+#furniture:checked ~ #div-furniture,
+#kitchen:checked ~ #div-kitchen {
+  visibility: visible;
+}
