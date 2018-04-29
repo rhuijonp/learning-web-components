@@ -22,7 +22,9 @@ Check the resulting screen here ["codepen.io screenshot"](codepenscreenshot.jpg)
 1. Create a new HTML document using your computer's text editor by opening a new text file and saving it with the ".html" extension. Create one or two files, until you know you can create other HTML files on demand.
 
 	[example 1](file1.html)
+	
 	[example 2](file2.html)
+	
 	[example 3](file3.html)
 
 1. Inside of a new [HTML file](exercise3b.html), add at least 2 of each element discussed in this section. You will effectively develop an intimacy with HTML by testing the language out. At the bottom of your HTML document, underneath all of your "tests," write a paragraph about places on the web where you've seen or used the elements you learned in this section. Then, write a short paragraph (1-3 sentences) on the role–how and why that HTML tag was used–on another website. A few examples of roles are:
